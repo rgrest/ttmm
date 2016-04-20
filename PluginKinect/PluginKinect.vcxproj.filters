@@ -1,0 +1,2776 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Juce Modules">
+      <UniqueIdentifier>{403cbe36-d3c6-4e93-835a-c17c3df8b68a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_audio_basics">
+      <UniqueIdentifier>{e279af98-3775-4d0d-b212-53961cda3dab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_audio_basics\buffers">
+      <UniqueIdentifier>{e99c804d-cc7c-4aff-95f2-0f1b911c8979}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_audio_basics\midi">
+      <UniqueIdentifier>{fdd72579-c7cd-42c2-857d-8a8599014639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_audio_basics\effects">
+      <UniqueIdentifier>{a2c93961-1b80-4c2a-bb0f-89a3cfe912af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_audio_basics\sources">
+      <UniqueIdentifier>{ce81aeb9-e7da-4bc1-96cf-d85d16d716a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_audio_basics\synthesisers">
+      <UniqueIdentifier>{13f071ca-621a-47e3-a1f6-c8b12bf1981d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_audio_devices">
+      <UniqueIdentifier>{6de65d03-e001-49da-b8a6-0161d092dd56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_audio_devices\audio_io">
+      <UniqueIdentifier>{72ed152d-30c5-43ef-81b2-99de2861c425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_audio_devices\midi_io">
+      <UniqueIdentifier>{6db27e01-f5ff-441a-87b4-2492b679d10b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_audio_devices\sources">
+      <UniqueIdentifier>{898bd18f-1929-4821-a91c-0c1796868518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_audio_devices\audio_cd">
+      <UniqueIdentifier>{ca2e517a-beb3-4343-b7f5-0889ea4361be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_audio_devices\native">
+      <UniqueIdentifier>{769bce41-2e50-4e76-bb4e-8f659a8f5c6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_audio_formats">
+      <UniqueIdentifier>{703ca526-68c4-4fe8-9dc4-e48b59dea72a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_audio_formats\format">
+      <UniqueIdentifier>{b1c5576d-9332-4e2c-9206-88bdfc9852bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_audio_formats\codecs">
+      <UniqueIdentifier>{c3b6f052-be80-4ab8-b322-7e17ede72367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_audio_formats\sampler">
+      <UniqueIdentifier>{08c33519-ec4f-420f-b343-b947864b481d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_audio_plugin_client">
+      <UniqueIdentifier>{eb785641-2a31-42fe-ba88-56dac4c64cfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_audio_plugin_client\AU">
+      <UniqueIdentifier>{5583985c-9a35-45f5-b0e9-d5d9f83625a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_audio_plugin_client\RTAS">
+      <UniqueIdentifier>{64bdb028-0061-4967-ad24-6313f1bb9656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_audio_plugin_client\VST">
+      <UniqueIdentifier>{4c2561e6-47e4-48e9-8ad0-85308bb3b000}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_audio_plugin_client\VST3">
+      <UniqueIdentifier>{8702cafb-f01d-4f90-93b2-968d849405ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_audio_plugin_client\AAX">
+      <UniqueIdentifier>{a43dabdd-d067-4e50-90c1-caa8be15f324}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_audio_plugin_client\utility">
+      <UniqueIdentifier>{988e2a23-af73-4087-935f-56a960bc97f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_audio_processors">
+      <UniqueIdentifier>{3642a706-0cdb-4a47-b839-b85f9f542c1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_audio_processors\processors">
+      <UniqueIdentifier>{58d10fd5-b27f-4917-a233-5daaea42a89d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_audio_processors\format">
+      <UniqueIdentifier>{332b6eab-2b41-4e0b-94dc-a34e0c277ea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_audio_processors\format_types">
+      <UniqueIdentifier>{d89dcd21-f9a3-4bed-b0ae-62913591c241}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_audio_processors\scanning">
+      <UniqueIdentifier>{c2d67e44-8286-4d4f-aab5-cf0d9201379e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_core">
+      <UniqueIdentifier>{0c1b3605-4d8b-4397-87ec-583d4d52b1d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_core\text">
+      <UniqueIdentifier>{1d88b5eb-d4c9-4f5b-b975-3af67be3eb3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_core\maths">
+      <UniqueIdentifier>{4b400be6-9712-47f9-9e1e-b984e8a8566b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_core\memory">
+      <UniqueIdentifier>{08611c16-e594-414f-bf20-55c0b9ff8480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_core\containers">
+      <UniqueIdentifier>{a3847d6c-bd48-46bd-8e9c-68b08cd3280b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_core\threads">
+      <UniqueIdentifier>{3fdad706-ca07-4f82-8beb-c51125eb4e20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_core\time">
+      <UniqueIdentifier>{4e2313df-dfe6-4eae-bf88-12f46f4e5f76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_core\files">
+      <UniqueIdentifier>{908865de-2225-4283-b5a8-09461f6b476d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_core\network">
+      <UniqueIdentifier>{886d1532-3881-4090-83f9-14a202e520ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_core\streams">
+      <UniqueIdentifier>{a66945f6-d23e-4938-ab5f-29182d343a71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_core\logging">
+      <UniqueIdentifier>{43c8731f-e310-4b24-bfff-f6897cf6674a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_core\system">
+      <UniqueIdentifier>{68f62fae-9670-46d1-b001-be46f9e50da1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_core\xml">
+      <UniqueIdentifier>{0d937c03-5f12-4629-8578-48932fd0af7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_core\javascript">
+      <UniqueIdentifier>{0bc16e8d-98cd-4619-a35c-855493ea027c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_core\zip">
+      <UniqueIdentifier>{a9920143-15c2-44d1-8bc9-8cd5f9249501}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_core\unit_tests">
+      <UniqueIdentifier>{9d0a361a-34cf-4b4a-887b-92cbcf4fa49a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_core\misc">
+      <UniqueIdentifier>{a90ce977-edb4-41c6-b8c8-5421c55c6f91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_core\native">
+      <UniqueIdentifier>{e786c574-53a2-46b9-9195-fdb8c9a8ba05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_data_structures">
+      <UniqueIdentifier>{23db033b-15dc-40dc-ac95-82e98cab8b90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_data_structures\values">
+      <UniqueIdentifier>{92a1d23e-1171-4dcc-a8f8-b6c52d0ecd30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_data_structures\undomanager">
+      <UniqueIdentifier>{8b065d11-4450-4f4e-a17a-70251fac511a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_data_structures\app_properties">
+      <UniqueIdentifier>{a71fe424-1308-4711-b2bf-ad97a07afab3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_events">
+      <UniqueIdentifier>{b8e95dee-8932-4602-889c-6ee774aba73d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_events\messages">
+      <UniqueIdentifier>{432ea56c-e047-4648-afbe-4909aa81c561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_events\timers">
+      <UniqueIdentifier>{a78da244-0991-4e84-99e3-34485308b1e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_events\broadcasters">
+      <UniqueIdentifier>{5f191121-8a82-435b-81e9-cf2ce352056b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_events\interprocess">
+      <UniqueIdentifier>{c74bc299-68ab-40be-b3b4-e4f4211ead75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_events\native">
+      <UniqueIdentifier>{6f87bcb1-14c6-4951-96db-724b7914f773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_graphics">
+      <UniqueIdentifier>{16466b38-aa4a-4852-8076-270f5b121cf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_graphics\colour">
+      <UniqueIdentifier>{a8c4c145-93cd-4ae4-9dc6-716e136866e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_graphics\contexts">
+      <UniqueIdentifier>{1ed97872-e95b-416c-afe7-9ac61460fb6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_graphics\images">
+      <UniqueIdentifier>{4ad98834-2ad4-4222-b690-8ac1e43c9daf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_graphics\image_formats">
+      <UniqueIdentifier>{c211e965-3a05-4e85-ba06-fae1ed64d37d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_graphics\geometry">
+      <UniqueIdentifier>{a758a919-afec-44a7-bb7d-a94fb928c67c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_graphics\placement">
+      <UniqueIdentifier>{2322f957-651d-4f03-9f07-5ac82511db6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_graphics\fonts">
+      <UniqueIdentifier>{1e2cd380-7912-424d-9d32-470efd3454ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_graphics\effects">
+      <UniqueIdentifier>{854674ac-5d04-48e1-a94a-f717aa72915b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_graphics\native">
+      <UniqueIdentifier>{7e0e2562-b79b-4a50-b2c3-6767635df0ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_gui_basics">
+      <UniqueIdentifier>{8fd229b4-f4b8-4a29-8485-32f9f3fbb0f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_gui_basics\components">
+      <UniqueIdentifier>{556b54c8-36fd-42bc-bc9b-86f5c9974a32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_gui_basics\mouse">
+      <UniqueIdentifier>{d3e0701a-fb7a-4c17-bbdc-b1e163817f7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_gui_basics\keyboard">
+      <UniqueIdentifier>{fe10035b-1655-4c35-a554-24d62e7a5b43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_gui_basics\widgets">
+      <UniqueIdentifier>{b443d892-c3cc-462d-93b1-968da9260586}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_gui_basics\windows">
+      <UniqueIdentifier>{20148e3d-ae4a-453e-84c0-3d7b1bc556c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_gui_basics\menus">
+      <UniqueIdentifier>{69076269-df4c-4b70-8f1e-2fb64296bee4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_gui_basics\layout">
+      <UniqueIdentifier>{880f0dc4-33d5-4442-8eda-b82c3ff5246f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_gui_basics\buttons">
+      <UniqueIdentifier>{e1e7b341-df6b-4532-b0d5-b7a4dc8aa17f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_gui_basics\positioning">
+      <UniqueIdentifier>{f5cd9f07-8d27-4bbd-aa3c-fb8b90aa4d89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_gui_basics\drawables">
+      <UniqueIdentifier>{7ca6c276-291d-420f-abc0-f793ef68a5bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_gui_basics\properties">
+      <UniqueIdentifier>{d3cb5aa2-45dd-496b-a984-cdc3b85400ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_gui_basics\lookandfeel">
+      <UniqueIdentifier>{2c1f59f8-850c-49bf-adef-6f8b376fb817}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_gui_basics\filebrowser">
+      <UniqueIdentifier>{051be5aa-6162-4369-af94-1d62d94f484d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_gui_basics\commands">
+      <UniqueIdentifier>{4536701c-9f09-4fc9-81b2-bc4ccbefc689}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_gui_basics\misc">
+      <UniqueIdentifier>{433773a7-7f27-4436-a44b-63e1b60134a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_gui_basics\application">
+      <UniqueIdentifier>{1f6cb7f1-331a-4a35-b21a-2d1ac8cd62b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_gui_basics\native">
+      <UniqueIdentifier>{cf0b9cf7-1627-4990-810b-9b6efa9edb00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_gui_extra">
+      <UniqueIdentifier>{574636e1-f1b9-4129-940a-b0ccf4639e9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_gui_extra\code_editor">
+      <UniqueIdentifier>{0061481e-2961-4d32-b37a-b67b477f7614}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_gui_extra\documents">
+      <UniqueIdentifier>{d72bc6f9-c018-46f2-9baf-4eeee292fb5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_gui_extra\embedding">
+      <UniqueIdentifier>{50991b77-e8be-401c-8aa2-9ad72ee5c2d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_gui_extra\misc">
+      <UniqueIdentifier>{92b803dd-6978-4d3e-9ef9-dbc3721807d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Modules\juce_gui_extra\native">
+      <UniqueIdentifier>{77ad4764-c90a-4611-bcd2-f4bb1fef668a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\TTMM">
+      <UniqueIdentifier>{03b46e13-3e75-48ca-998d-1247d23bec90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Library Code">
+      <UniqueIdentifier>{69fc0f35-2d61-41a0-a303-05c03d46dcc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PoseType.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="KinectDevice.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Body.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="KinectInputPluginProcessor.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_basics\juce_audio_basics.h">
+      <Filter>Juce Modules\juce_audio_basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_basics\buffers\juce_AudioDataConverters.h">
+      <Filter>Juce Modules\juce_audio_basics\buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_basics\buffers\juce_AudioSampleBuffer.h">
+      <Filter>Juce Modules\juce_audio_basics\buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_basics\buffers\juce_FloatVectorOperations.h">
+      <Filter>Juce Modules\juce_audio_basics\buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_basics\midi\juce_MidiBuffer.h">
+      <Filter>Juce Modules\juce_audio_basics\midi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_basics\midi\juce_MidiFile.h">
+      <Filter>Juce Modules\juce_audio_basics\midi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_basics\midi\juce_MidiKeyboardState.h">
+      <Filter>Juce Modules\juce_audio_basics\midi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_basics\midi\juce_MidiMessage.h">
+      <Filter>Juce Modules\juce_audio_basics\midi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_basics\midi\juce_MidiMessageSequence.h">
+      <Filter>Juce Modules\juce_audio_basics\midi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_basics\effects\juce_Decibels.h">
+      <Filter>Juce Modules\juce_audio_basics\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_basics\effects\juce_FFT.h">
+      <Filter>Juce Modules\juce_audio_basics\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_basics\effects\juce_IIRFilter.h">
+      <Filter>Juce Modules\juce_audio_basics\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_basics\effects\juce_LagrangeInterpolator.h">
+      <Filter>Juce Modules\juce_audio_basics\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_basics\effects\juce_Reverb.h">
+      <Filter>Juce Modules\juce_audio_basics\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_basics\sources\juce_AudioSource.h">
+      <Filter>Juce Modules\juce_audio_basics\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_basics\sources\juce_BufferingAudioSource.h">
+      <Filter>Juce Modules\juce_audio_basics\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_basics\sources\juce_ChannelRemappingAudioSource.h">
+      <Filter>Juce Modules\juce_audio_basics\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_basics\sources\juce_IIRFilterAudioSource.h">
+      <Filter>Juce Modules\juce_audio_basics\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_basics\sources\juce_MixerAudioSource.h">
+      <Filter>Juce Modules\juce_audio_basics\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_basics\sources\juce_PositionableAudioSource.h">
+      <Filter>Juce Modules\juce_audio_basics\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_basics\sources\juce_ResamplingAudioSource.h">
+      <Filter>Juce Modules\juce_audio_basics\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_basics\sources\juce_ReverbAudioSource.h">
+      <Filter>Juce Modules\juce_audio_basics\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_basics\sources\juce_ToneGeneratorAudioSource.h">
+      <Filter>Juce Modules\juce_audio_basics\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_basics\synthesisers\juce_Synthesiser.h">
+      <Filter>Juce Modules\juce_audio_basics\synthesisers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_devices\juce_audio_devices.h">
+      <Filter>Juce Modules\juce_audio_devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_devices\audio_io\juce_AudioDeviceManager.h">
+      <Filter>Juce Modules\juce_audio_devices\audio_io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_devices\audio_io\juce_AudioIODevice.h">
+      <Filter>Juce Modules\juce_audio_devices\audio_io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_devices\audio_io\juce_AudioIODeviceType.h">
+      <Filter>Juce Modules\juce_audio_devices\audio_io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_devices\audio_io\juce_SystemAudioVolume.h">
+      <Filter>Juce Modules\juce_audio_devices\audio_io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_devices\midi_io\juce_MidiInput.h">
+      <Filter>Juce Modules\juce_audio_devices\midi_io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_devices\midi_io\juce_MidiMessageCollector.h">
+      <Filter>Juce Modules\juce_audio_devices\midi_io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_devices\midi_io\juce_MidiOutput.h">
+      <Filter>Juce Modules\juce_audio_devices\midi_io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_devices\sources\juce_AudioSourcePlayer.h">
+      <Filter>Juce Modules\juce_audio_devices\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_devices\sources\juce_AudioTransportSource.h">
+      <Filter>Juce Modules\juce_audio_devices\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_devices\audio_cd\juce_AudioCDBurner.h">
+      <Filter>Juce Modules\juce_audio_devices\audio_cd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_devices\audio_cd\juce_AudioCDReader.h">
+      <Filter>Juce Modules\juce_audio_devices\audio_cd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_devices\native\juce_MidiDataConcatenator.h">
+      <Filter>Juce Modules\juce_audio_devices\native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_formats\juce_audio_formats.h">
+      <Filter>Juce Modules\juce_audio_formats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_formats\format\juce_AudioFormat.h">
+      <Filter>Juce Modules\juce_audio_formats\format</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_formats\format\juce_AudioFormatManager.h">
+      <Filter>Juce Modules\juce_audio_formats\format</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_formats\format\juce_AudioFormatReader.h">
+      <Filter>Juce Modules\juce_audio_formats\format</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_formats\format\juce_AudioFormatReaderSource.h">
+      <Filter>Juce Modules\juce_audio_formats\format</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_formats\format\juce_AudioFormatWriter.h">
+      <Filter>Juce Modules\juce_audio_formats\format</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_formats\format\juce_AudioSubsectionReader.h">
+      <Filter>Juce Modules\juce_audio_formats\format</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_formats\format\juce_BufferingAudioFormatReader.h">
+      <Filter>Juce Modules\juce_audio_formats\format</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_formats\format\juce_MemoryMappedAudioFormatReader.h">
+      <Filter>Juce Modules\juce_audio_formats\format</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_formats\codecs\juce_AiffAudioFormat.h">
+      <Filter>Juce Modules\juce_audio_formats\codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_formats\codecs\juce_CoreAudioFormat.h">
+      <Filter>Juce Modules\juce_audio_formats\codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_formats\codecs\juce_FlacAudioFormat.h">
+      <Filter>Juce Modules\juce_audio_formats\codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_formats\codecs\juce_LAMEEncoderAudioFormat.h">
+      <Filter>Juce Modules\juce_audio_formats\codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_formats\codecs\juce_MP3AudioFormat.h">
+      <Filter>Juce Modules\juce_audio_formats\codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_formats\codecs\juce_OggVorbisAudioFormat.h">
+      <Filter>Juce Modules\juce_audio_formats\codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_formats\codecs\juce_QuickTimeAudioFormat.h">
+      <Filter>Juce Modules\juce_audio_formats\codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_formats\codecs\juce_WavAudioFormat.h">
+      <Filter>Juce Modules\juce_audio_formats\codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_formats\codecs\juce_WindowsMediaAudioFormat.h">
+      <Filter>Juce Modules\juce_audio_formats\codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_formats\sampler\juce_Sampler.h">
+      <Filter>Juce Modules\juce_audio_formats\sampler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_plugin_client\juce_audio_plugin_client.h">
+      <Filter>Juce Modules\juce_audio_plugin_client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_plugin_client\RTAS\juce_RTAS_DigiCode_Header.h">
+      <Filter>Juce Modules\juce_audio_plugin_client\RTAS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_plugin_client\utility\juce_CarbonVisibility.h">
+      <Filter>Juce Modules\juce_audio_plugin_client\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_plugin_client\utility\juce_CheckSettingMacros.h">
+      <Filter>Juce Modules\juce_audio_plugin_client\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_plugin_client\utility\juce_FakeMouseMoveGenerator.h">
+      <Filter>Juce Modules\juce_audio_plugin_client\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_plugin_client\utility\juce_IncludeModuleHeaders.h">
+      <Filter>Juce Modules\juce_audio_plugin_client\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_plugin_client\utility\juce_IncludeSystemHeaders.h">
+      <Filter>Juce Modules\juce_audio_plugin_client\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_plugin_client\utility\juce_PluginHostType.h">
+      <Filter>Juce Modules\juce_audio_plugin_client\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_plugin_client\utility\juce_WindowsHooks.h">
+      <Filter>Juce Modules\juce_audio_plugin_client\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_processors\juce_audio_processors.h">
+      <Filter>Juce Modules\juce_audio_processors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_processors\processors\juce_AudioPlayHead.h">
+      <Filter>Juce Modules\juce_audio_processors\processors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_processors\processors\juce_AudioPluginInstance.h">
+      <Filter>Juce Modules\juce_audio_processors\processors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_processors\processors\juce_AudioProcessor.h">
+      <Filter>Juce Modules\juce_audio_processors\processors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_processors\processors\juce_AudioProcessorEditor.h">
+      <Filter>Juce Modules\juce_audio_processors\processors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_processors\processors\juce_AudioProcessorGraph.h">
+      <Filter>Juce Modules\juce_audio_processors\processors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_processors\processors\juce_AudioProcessorListener.h">
+      <Filter>Juce Modules\juce_audio_processors\processors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_processors\processors\juce_AudioProcessorParameter.h">
+      <Filter>Juce Modules\juce_audio_processors\processors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_processors\processors\juce_GenericAudioProcessorEditor.h">
+      <Filter>Juce Modules\juce_audio_processors\processors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_processors\processors\juce_PluginDescription.h">
+      <Filter>Juce Modules\juce_audio_processors\processors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_processors\format\juce_AudioPluginFormat.h">
+      <Filter>Juce Modules\juce_audio_processors\format</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_processors\format\juce_AudioPluginFormatManager.h">
+      <Filter>Juce Modules\juce_audio_processors\format</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_processors\format_types\juce_AudioUnitPluginFormat.h">
+      <Filter>Juce Modules\juce_audio_processors\format_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_processors\format_types\juce_LADSPAPluginFormat.h">
+      <Filter>Juce Modules\juce_audio_processors\format_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_processors\format_types\juce_VST3Common.h">
+      <Filter>Juce Modules\juce_audio_processors\format_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_processors\format_types\juce_VST3Headers.h">
+      <Filter>Juce Modules\juce_audio_processors\format_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_processors\format_types\juce_VST3PluginFormat.h">
+      <Filter>Juce Modules\juce_audio_processors\format_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_processors\format_types\juce_VSTMidiEventList.h">
+      <Filter>Juce Modules\juce_audio_processors\format_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_processors\format_types\juce_VSTPluginFormat.h">
+      <Filter>Juce Modules\juce_audio_processors\format_types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_processors\scanning\juce_KnownPluginList.h">
+      <Filter>Juce Modules\juce_audio_processors\scanning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_processors\scanning\juce_PluginDirectoryScanner.h">
+      <Filter>Juce Modules\juce_audio_processors\scanning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_audio_processors\scanning\juce_PluginListComponent.h">
+      <Filter>Juce Modules\juce_audio_processors\scanning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\juce_core.h">
+      <Filter>Juce Modules\juce_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\text\juce_CharacterFunctions.h">
+      <Filter>Juce Modules\juce_core\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\text\juce_CharPointer_ASCII.h">
+      <Filter>Juce Modules\juce_core\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\text\juce_CharPointer_UTF16.h">
+      <Filter>Juce Modules\juce_core\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\text\juce_CharPointer_UTF32.h">
+      <Filter>Juce Modules\juce_core\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\text\juce_CharPointer_UTF8.h">
+      <Filter>Juce Modules\juce_core\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\text\juce_Identifier.h">
+      <Filter>Juce Modules\juce_core\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\text\juce_LocalisedStrings.h">
+      <Filter>Juce Modules\juce_core\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\text\juce_NewLine.h">
+      <Filter>Juce Modules\juce_core\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\text\juce_String.h">
+      <Filter>Juce Modules\juce_core\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\text\juce_StringArray.h">
+      <Filter>Juce Modules\juce_core\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\text\juce_StringPairArray.h">
+      <Filter>Juce Modules\juce_core\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\text\juce_StringPool.h">
+      <Filter>Juce Modules\juce_core\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\text\juce_StringRef.h">
+      <Filter>Juce Modules\juce_core\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\text\juce_TextDiff.h">
+      <Filter>Juce Modules\juce_core\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\maths\juce_BigInteger.h">
+      <Filter>Juce Modules\juce_core\maths</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\maths\juce_Expression.h">
+      <Filter>Juce Modules\juce_core\maths</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\maths\juce_MathsFunctions.h">
+      <Filter>Juce Modules\juce_core\maths</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\maths\juce_NormalisableRange.h">
+      <Filter>Juce Modules\juce_core\maths</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\maths\juce_Random.h">
+      <Filter>Juce Modules\juce_core\maths</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\maths\juce_Range.h">
+      <Filter>Juce Modules\juce_core\maths</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\memory\juce_Atomic.h">
+      <Filter>Juce Modules\juce_core\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\memory\juce_ByteOrder.h">
+      <Filter>Juce Modules\juce_core\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\memory\juce_ContainerDeletePolicy.h">
+      <Filter>Juce Modules\juce_core\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\memory\juce_HeapBlock.h">
+      <Filter>Juce Modules\juce_core\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\memory\juce_LeakedObjectDetector.h">
+      <Filter>Juce Modules\juce_core\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\memory\juce_Memory.h">
+      <Filter>Juce Modules\juce_core\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\memory\juce_MemoryBlock.h">
+      <Filter>Juce Modules\juce_core\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\memory\juce_OptionalScopedPointer.h">
+      <Filter>Juce Modules\juce_core\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\memory\juce_ReferenceCountedObject.h">
+      <Filter>Juce Modules\juce_core\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\memory\juce_ScopedPointer.h">
+      <Filter>Juce Modules\juce_core\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\memory\juce_SharedResourcePointer.h">
+      <Filter>Juce Modules\juce_core\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\memory\juce_Singleton.h">
+      <Filter>Juce Modules\juce_core\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\memory\juce_WeakReference.h">
+      <Filter>Juce Modules\juce_core\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\containers\juce_AbstractFifo.h">
+      <Filter>Juce Modules\juce_core\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\containers\juce_Array.h">
+      <Filter>Juce Modules\juce_core\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\containers\juce_ArrayAllocationBase.h">
+      <Filter>Juce Modules\juce_core\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\containers\juce_DynamicObject.h">
+      <Filter>Juce Modules\juce_core\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\containers\juce_ElementComparator.h">
+      <Filter>Juce Modules\juce_core\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\containers\juce_HashMap.h">
+      <Filter>Juce Modules\juce_core\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\containers\juce_LinkedListPointer.h">
+      <Filter>Juce Modules\juce_core\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\containers\juce_NamedValueSet.h">
+      <Filter>Juce Modules\juce_core\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\containers\juce_OwnedArray.h">
+      <Filter>Juce Modules\juce_core\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\containers\juce_PropertySet.h">
+      <Filter>Juce Modules\juce_core\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\containers\juce_ReferenceCountedArray.h">
+      <Filter>Juce Modules\juce_core\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\containers\juce_ScopedValueSetter.h">
+      <Filter>Juce Modules\juce_core\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\containers\juce_SortedSet.h">
+      <Filter>Juce Modules\juce_core\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\containers\juce_SparseSet.h">
+      <Filter>Juce Modules\juce_core\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\containers\juce_Variant.h">
+      <Filter>Juce Modules\juce_core\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\threads\juce_ChildProcess.h">
+      <Filter>Juce Modules\juce_core\threads</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\threads\juce_CriticalSection.h">
+      <Filter>Juce Modules\juce_core\threads</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\threads\juce_DynamicLibrary.h">
+      <Filter>Juce Modules\juce_core\threads</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\threads\juce_HighResolutionTimer.h">
+      <Filter>Juce Modules\juce_core\threads</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\threads\juce_InterProcessLock.h">
+      <Filter>Juce Modules\juce_core\threads</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\threads\juce_Process.h">
+      <Filter>Juce Modules\juce_core\threads</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\threads\juce_ReadWriteLock.h">
+      <Filter>Juce Modules\juce_core\threads</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\threads\juce_ScopedLock.h">
+      <Filter>Juce Modules\juce_core\threads</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\threads\juce_ScopedReadLock.h">
+      <Filter>Juce Modules\juce_core\threads</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\threads\juce_ScopedWriteLock.h">
+      <Filter>Juce Modules\juce_core\threads</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\threads\juce_SpinLock.h">
+      <Filter>Juce Modules\juce_core\threads</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\threads\juce_Thread.h">
+      <Filter>Juce Modules\juce_core\threads</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\threads\juce_ThreadLocalValue.h">
+      <Filter>Juce Modules\juce_core\threads</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\threads\juce_ThreadPool.h">
+      <Filter>Juce Modules\juce_core\threads</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\threads\juce_TimeSliceThread.h">
+      <Filter>Juce Modules\juce_core\threads</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\threads\juce_WaitableEvent.h">
+      <Filter>Juce Modules\juce_core\threads</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\time\juce_PerformanceCounter.h">
+      <Filter>Juce Modules\juce_core\time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\time\juce_RelativeTime.h">
+      <Filter>Juce Modules\juce_core\time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\time\juce_Time.h">
+      <Filter>Juce Modules\juce_core\time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\files\juce_DirectoryIterator.h">
+      <Filter>Juce Modules\juce_core\files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\files\juce_File.h">
+      <Filter>Juce Modules\juce_core\files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\files\juce_FileFilter.h">
+      <Filter>Juce Modules\juce_core\files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\files\juce_FileInputStream.h">
+      <Filter>Juce Modules\juce_core\files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\files\juce_FileOutputStream.h">
+      <Filter>Juce Modules\juce_core\files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\files\juce_FileSearchPath.h">
+      <Filter>Juce Modules\juce_core\files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\files\juce_MemoryMappedFile.h">
+      <Filter>Juce Modules\juce_core\files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\files\juce_TemporaryFile.h">
+      <Filter>Juce Modules\juce_core\files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\files\juce_WildcardFileFilter.h">
+      <Filter>Juce Modules\juce_core\files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\network\juce_IPAddress.h">
+      <Filter>Juce Modules\juce_core\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\network\juce_MACAddress.h">
+      <Filter>Juce Modules\juce_core\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\network\juce_NamedPipe.h">
+      <Filter>Juce Modules\juce_core\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\network\juce_Socket.h">
+      <Filter>Juce Modules\juce_core\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\network\juce_URL.h">
+      <Filter>Juce Modules\juce_core\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\streams\juce_BufferedInputStream.h">
+      <Filter>Juce Modules\juce_core\streams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\streams\juce_FileInputSource.h">
+      <Filter>Juce Modules\juce_core\streams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\streams\juce_InputSource.h">
+      <Filter>Juce Modules\juce_core\streams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\streams\juce_InputStream.h">
+      <Filter>Juce Modules\juce_core\streams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\streams\juce_MemoryInputStream.h">
+      <Filter>Juce Modules\juce_core\streams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\streams\juce_MemoryOutputStream.h">
+      <Filter>Juce Modules\juce_core\streams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\streams\juce_OutputStream.h">
+      <Filter>Juce Modules\juce_core\streams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\streams\juce_SubregionStream.h">
+      <Filter>Juce Modules\juce_core\streams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\logging\juce_FileLogger.h">
+      <Filter>Juce Modules\juce_core\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\logging\juce_Logger.h">
+      <Filter>Juce Modules\juce_core\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\system\juce_CompilerSupport.h">
+      <Filter>Juce Modules\juce_core\system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\system\juce_PlatformDefs.h">
+      <Filter>Juce Modules\juce_core\system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\system\juce_StandardHeader.h">
+      <Filter>Juce Modules\juce_core\system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\system\juce_SystemStats.h">
+      <Filter>Juce Modules\juce_core\system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\system\juce_TargetPlatform.h">
+      <Filter>Juce Modules\juce_core\system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\xml\juce_XmlDocument.h">
+      <Filter>Juce Modules\juce_core\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\xml\juce_XmlElement.h">
+      <Filter>Juce Modules\juce_core\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\javascript\juce_Javascript.h">
+      <Filter>Juce Modules\juce_core\javascript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\javascript\juce_JSON.h">
+      <Filter>Juce Modules\juce_core\javascript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\zip\juce_GZIPCompressorOutputStream.h">
+      <Filter>Juce Modules\juce_core\zip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\zip\juce_GZIPDecompressorInputStream.h">
+      <Filter>Juce Modules\juce_core\zip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\zip\juce_ZipFile.h">
+      <Filter>Juce Modules\juce_core\zip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\unit_tests\juce_UnitTest.h">
+      <Filter>Juce Modules\juce_core\unit_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\misc\juce_Result.h">
+      <Filter>Juce Modules\juce_core\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\misc\juce_Uuid.h">
+      <Filter>Juce Modules\juce_core\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\misc\juce_WindowsRegistry.h">
+      <Filter>Juce Modules\juce_core\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\native\juce_android_JNIHelpers.h">
+      <Filter>Juce Modules\juce_core\native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\native\juce_BasicNativeHeaders.h">
+      <Filter>Juce Modules\juce_core\native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\native\juce_osx_ObjCHelpers.h">
+      <Filter>Juce Modules\juce_core\native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\native\juce_posix_SharedCode.h">
+      <Filter>Juce Modules\juce_core\native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_core\native\juce_win32_ComSmartPtr.h">
+      <Filter>Juce Modules\juce_core\native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_data_structures\juce_data_structures.h">
+      <Filter>Juce Modules\juce_data_structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_data_structures\values\juce_Value.h">
+      <Filter>Juce Modules\juce_data_structures\values</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_data_structures\values\juce_ValueTree.h">
+      <Filter>Juce Modules\juce_data_structures\values</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_data_structures\values\juce_ValueTreeSynchroniser.h">
+      <Filter>Juce Modules\juce_data_structures\values</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_data_structures\undomanager\juce_UndoableAction.h">
+      <Filter>Juce Modules\juce_data_structures\undomanager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_data_structures\undomanager\juce_UndoManager.h">
+      <Filter>Juce Modules\juce_data_structures\undomanager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_data_structures\app_properties\juce_ApplicationProperties.h">
+      <Filter>Juce Modules\juce_data_structures\app_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_data_structures\app_properties\juce_PropertiesFile.h">
+      <Filter>Juce Modules\juce_data_structures\app_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_events\juce_events.h">
+      <Filter>Juce Modules\juce_events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_events\messages\juce_ApplicationBase.h">
+      <Filter>Juce Modules\juce_events\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_events\messages\juce_CallbackMessage.h">
+      <Filter>Juce Modules\juce_events\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_events\messages\juce_DeletedAtShutdown.h">
+      <Filter>Juce Modules\juce_events\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_events\messages\juce_Initialisation.h">
+      <Filter>Juce Modules\juce_events\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_events\messages\juce_Message.h">
+      <Filter>Juce Modules\juce_events\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_events\messages\juce_MessageListener.h">
+      <Filter>Juce Modules\juce_events\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_events\messages\juce_MessageManager.h">
+      <Filter>Juce Modules\juce_events\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_events\messages\juce_MountedVolumeListChangeDetector.h">
+      <Filter>Juce Modules\juce_events\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_events\messages\juce_NotificationType.h">
+      <Filter>Juce Modules\juce_events\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_events\timers\juce_MultiTimer.h">
+      <Filter>Juce Modules\juce_events\timers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_events\timers\juce_Timer.h">
+      <Filter>Juce Modules\juce_events\timers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_events\broadcasters\juce_ActionBroadcaster.h">
+      <Filter>Juce Modules\juce_events\broadcasters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_events\broadcasters\juce_ActionListener.h">
+      <Filter>Juce Modules\juce_events\broadcasters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_events\broadcasters\juce_AsyncUpdater.h">
+      <Filter>Juce Modules\juce_events\broadcasters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_events\broadcasters\juce_ChangeBroadcaster.h">
+      <Filter>Juce Modules\juce_events\broadcasters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_events\broadcasters\juce_ChangeListener.h">
+      <Filter>Juce Modules\juce_events\broadcasters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_events\broadcasters\juce_ListenerList.h">
+      <Filter>Juce Modules\juce_events\broadcasters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_events\interprocess\juce_ConnectedChildProcess.h">
+      <Filter>Juce Modules\juce_events\interprocess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_events\interprocess\juce_InterprocessConnection.h">
+      <Filter>Juce Modules\juce_events\interprocess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_events\interprocess\juce_InterprocessConnectionServer.h">
+      <Filter>Juce Modules\juce_events\interprocess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_events\native\juce_osx_MessageQueue.h">
+      <Filter>Juce Modules\juce_events\native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_events\native\juce_ScopedXLock.h">
+      <Filter>Juce Modules\juce_events\native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_events\native\juce_win32_HiddenMessageWindow.h">
+      <Filter>Juce Modules\juce_events\native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_graphics\juce_graphics.h">
+      <Filter>Juce Modules\juce_graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_graphics\colour\juce_Colour.h">
+      <Filter>Juce Modules\juce_graphics\colour</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_graphics\colour\juce_ColourGradient.h">
+      <Filter>Juce Modules\juce_graphics\colour</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_graphics\colour\juce_Colours.h">
+      <Filter>Juce Modules\juce_graphics\colour</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_graphics\colour\juce_FillType.h">
+      <Filter>Juce Modules\juce_graphics\colour</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_graphics\colour\juce_PixelFormats.h">
+      <Filter>Juce Modules\juce_graphics\colour</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_graphics\contexts\juce_GraphicsContext.h">
+      <Filter>Juce Modules\juce_graphics\contexts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_graphics\contexts\juce_LowLevelGraphicsContext.h">
+      <Filter>Juce Modules\juce_graphics\contexts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_graphics\contexts\juce_LowLevelGraphicsPostScriptRenderer.h">
+      <Filter>Juce Modules\juce_graphics\contexts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_graphics\contexts\juce_LowLevelGraphicsSoftwareRenderer.h">
+      <Filter>Juce Modules\juce_graphics\contexts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_graphics\images\juce_Image.h">
+      <Filter>Juce Modules\juce_graphics\images</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_graphics\images\juce_ImageCache.h">
+      <Filter>Juce Modules\juce_graphics\images</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_graphics\images\juce_ImageConvolutionKernel.h">
+      <Filter>Juce Modules\juce_graphics\images</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_graphics\images\juce_ImageFileFormat.h">
+      <Filter>Juce Modules\juce_graphics\images</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_graphics\geometry\juce_AffineTransform.h">
+      <Filter>Juce Modules\juce_graphics\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_graphics\geometry\juce_BorderSize.h">
+      <Filter>Juce Modules\juce_graphics\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_graphics\geometry\juce_EdgeTable.h">
+      <Filter>Juce Modules\juce_graphics\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_graphics\geometry\juce_Line.h">
+      <Filter>Juce Modules\juce_graphics\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_graphics\geometry\juce_Path.h">
+      <Filter>Juce Modules\juce_graphics\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_graphics\geometry\juce_PathIterator.h">
+      <Filter>Juce Modules\juce_graphics\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_graphics\geometry\juce_PathStrokeType.h">
+      <Filter>Juce Modules\juce_graphics\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_graphics\geometry\juce_Point.h">
+      <Filter>Juce Modules\juce_graphics\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_graphics\geometry\juce_Rectangle.h">
+      <Filter>Juce Modules\juce_graphics\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_graphics\geometry\juce_RectangleList.h">
+      <Filter>Juce Modules\juce_graphics\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_graphics\placement\juce_Justification.h">
+      <Filter>Juce Modules\juce_graphics\placement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_graphics\placement\juce_RectanglePlacement.h">
+      <Filter>Juce Modules\juce_graphics\placement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_graphics\fonts\juce_AttributedString.h">
+      <Filter>Juce Modules\juce_graphics\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_graphics\fonts\juce_CustomTypeface.h">
+      <Filter>Juce Modules\juce_graphics\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_graphics\fonts\juce_Font.h">
+      <Filter>Juce Modules\juce_graphics\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_graphics\fonts\juce_GlyphArrangement.h">
+      <Filter>Juce Modules\juce_graphics\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_graphics\fonts\juce_TextLayout.h">
+      <Filter>Juce Modules\juce_graphics\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_graphics\fonts\juce_Typeface.h">
+      <Filter>Juce Modules\juce_graphics\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_graphics\effects\juce_DropShadowEffect.h">
+      <Filter>Juce Modules\juce_graphics\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_graphics\effects\juce_GlowEffect.h">
+      <Filter>Juce Modules\juce_graphics\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_graphics\effects\juce_ImageEffectFilter.h">
+      <Filter>Juce Modules\juce_graphics\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_graphics\native\juce_mac_CoreGraphicsContext.h">
+      <Filter>Juce Modules\juce_graphics\native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_graphics\native\juce_mac_CoreGraphicsHelpers.h">
+      <Filter>Juce Modules\juce_graphics\native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_graphics\native\juce_RenderingHelpers.h">
+      <Filter>Juce Modules\juce_graphics\native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\juce_gui_basics.h">
+      <Filter>Juce Modules\juce_gui_basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\components\juce_CachedComponentImage.h">
+      <Filter>Juce Modules\juce_gui_basics\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\components\juce_Component.h">
+      <Filter>Juce Modules\juce_gui_basics\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\components\juce_ComponentListener.h">
+      <Filter>Juce Modules\juce_gui_basics\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\components\juce_Desktop.h">
+      <Filter>Juce Modules\juce_gui_basics\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\components\juce_ModalComponentManager.h">
+      <Filter>Juce Modules\juce_gui_basics\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\mouse\juce_ComponentDragger.h">
+      <Filter>Juce Modules\juce_gui_basics\mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\mouse\juce_DragAndDropContainer.h">
+      <Filter>Juce Modules\juce_gui_basics\mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\mouse\juce_DragAndDropTarget.h">
+      <Filter>Juce Modules\juce_gui_basics\mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\mouse\juce_FileDragAndDropTarget.h">
+      <Filter>Juce Modules\juce_gui_basics\mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\mouse\juce_LassoComponent.h">
+      <Filter>Juce Modules\juce_gui_basics\mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\mouse\juce_MouseCursor.h">
+      <Filter>Juce Modules\juce_gui_basics\mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\mouse\juce_MouseEvent.h">
+      <Filter>Juce Modules\juce_gui_basics\mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\mouse\juce_MouseInactivityDetector.h">
+      <Filter>Juce Modules\juce_gui_basics\mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\mouse\juce_MouseInputSource.h">
+      <Filter>Juce Modules\juce_gui_basics\mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\mouse\juce_MouseListener.h">
+      <Filter>Juce Modules\juce_gui_basics\mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\mouse\juce_SelectedItemSet.h">
+      <Filter>Juce Modules\juce_gui_basics\mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\mouse\juce_TextDragAndDropTarget.h">
+      <Filter>Juce Modules\juce_gui_basics\mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\mouse\juce_TooltipClient.h">
+      <Filter>Juce Modules\juce_gui_basics\mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\keyboard\juce_CaretComponent.h">
+      <Filter>Juce Modules\juce_gui_basics\keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\keyboard\juce_KeyboardFocusTraverser.h">
+      <Filter>Juce Modules\juce_gui_basics\keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\keyboard\juce_KeyListener.h">
+      <Filter>Juce Modules\juce_gui_basics\keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\keyboard\juce_KeyPress.h">
+      <Filter>Juce Modules\juce_gui_basics\keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\keyboard\juce_ModifierKeys.h">
+      <Filter>Juce Modules\juce_gui_basics\keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\keyboard\juce_SystemClipboard.h">
+      <Filter>Juce Modules\juce_gui_basics\keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\keyboard\juce_TextEditorKeyMapper.h">
+      <Filter>Juce Modules\juce_gui_basics\keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\keyboard\juce_TextInputTarget.h">
+      <Filter>Juce Modules\juce_gui_basics\keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\widgets\juce_ComboBox.h">
+      <Filter>Juce Modules\juce_gui_basics\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\widgets\juce_ImageComponent.h">
+      <Filter>Juce Modules\juce_gui_basics\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\widgets\juce_Label.h">
+      <Filter>Juce Modules\juce_gui_basics\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\widgets\juce_ListBox.h">
+      <Filter>Juce Modules\juce_gui_basics\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\widgets\juce_ProgressBar.h">
+      <Filter>Juce Modules\juce_gui_basics\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\widgets\juce_Slider.h">
+      <Filter>Juce Modules\juce_gui_basics\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\widgets\juce_TableHeaderComponent.h">
+      <Filter>Juce Modules\juce_gui_basics\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\widgets\juce_TableListBox.h">
+      <Filter>Juce Modules\juce_gui_basics\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\widgets\juce_TextEditor.h">
+      <Filter>Juce Modules\juce_gui_basics\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\widgets\juce_Toolbar.h">
+      <Filter>Juce Modules\juce_gui_basics\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\widgets\juce_ToolbarItemComponent.h">
+      <Filter>Juce Modules\juce_gui_basics\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\widgets\juce_ToolbarItemFactory.h">
+      <Filter>Juce Modules\juce_gui_basics\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\widgets\juce_ToolbarItemPalette.h">
+      <Filter>Juce Modules\juce_gui_basics\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\widgets\juce_TreeView.h">
+      <Filter>Juce Modules\juce_gui_basics\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\windows\juce_AlertWindow.h">
+      <Filter>Juce Modules\juce_gui_basics\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\windows\juce_CallOutBox.h">
+      <Filter>Juce Modules\juce_gui_basics\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\windows\juce_ComponentPeer.h">
+      <Filter>Juce Modules\juce_gui_basics\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\windows\juce_DialogWindow.h">
+      <Filter>Juce Modules\juce_gui_basics\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\windows\juce_DocumentWindow.h">
+      <Filter>Juce Modules\juce_gui_basics\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\windows\juce_NativeMessageBox.h">
+      <Filter>Juce Modules\juce_gui_basics\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\windows\juce_ResizableWindow.h">
+      <Filter>Juce Modules\juce_gui_basics\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\windows\juce_ThreadWithProgressWindow.h">
+      <Filter>Juce Modules\juce_gui_basics\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\windows\juce_TooltipWindow.h">
+      <Filter>Juce Modules\juce_gui_basics\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\windows\juce_TopLevelWindow.h">
+      <Filter>Juce Modules\juce_gui_basics\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\menus\juce_MenuBarComponent.h">
+      <Filter>Juce Modules\juce_gui_basics\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\menus\juce_MenuBarModel.h">
+      <Filter>Juce Modules\juce_gui_basics\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\menus\juce_PopupMenu.h">
+      <Filter>Juce Modules\juce_gui_basics\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\layout\juce_AnimatedPosition.h">
+      <Filter>Juce Modules\juce_gui_basics\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\layout\juce_AnimatedPositionBehaviours.h">
+      <Filter>Juce Modules\juce_gui_basics\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\layout\juce_ComponentAnimator.h">
+      <Filter>Juce Modules\juce_gui_basics\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\layout\juce_ComponentBoundsConstrainer.h">
+      <Filter>Juce Modules\juce_gui_basics\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\layout\juce_ComponentBuilder.h">
+      <Filter>Juce Modules\juce_gui_basics\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\layout\juce_ComponentMovementWatcher.h">
+      <Filter>Juce Modules\juce_gui_basics\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\layout\juce_ConcertinaPanel.h">
+      <Filter>Juce Modules\juce_gui_basics\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\layout\juce_GroupComponent.h">
+      <Filter>Juce Modules\juce_gui_basics\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\layout\juce_MultiDocumentPanel.h">
+      <Filter>Juce Modules\juce_gui_basics\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\layout\juce_ResizableBorderComponent.h">
+      <Filter>Juce Modules\juce_gui_basics\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\layout\juce_ResizableCornerComponent.h">
+      <Filter>Juce Modules\juce_gui_basics\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\layout\juce_ResizableEdgeComponent.h">
+      <Filter>Juce Modules\juce_gui_basics\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\layout\juce_ScrollBar.h">
+      <Filter>Juce Modules\juce_gui_basics\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\layout\juce_StretchableLayoutManager.h">
+      <Filter>Juce Modules\juce_gui_basics\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\layout\juce_StretchableLayoutResizerBar.h">
+      <Filter>Juce Modules\juce_gui_basics\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\layout\juce_StretchableObjectResizer.h">
+      <Filter>Juce Modules\juce_gui_basics\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\layout\juce_TabbedButtonBar.h">
+      <Filter>Juce Modules\juce_gui_basics\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\layout\juce_TabbedComponent.h">
+      <Filter>Juce Modules\juce_gui_basics\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\layout\juce_Viewport.h">
+      <Filter>Juce Modules\juce_gui_basics\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\buttons\juce_ArrowButton.h">
+      <Filter>Juce Modules\juce_gui_basics\buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\buttons\juce_Button.h">
+      <Filter>Juce Modules\juce_gui_basics\buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\buttons\juce_DrawableButton.h">
+      <Filter>Juce Modules\juce_gui_basics\buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\buttons\juce_HyperlinkButton.h">
+      <Filter>Juce Modules\juce_gui_basics\buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\buttons\juce_ImageButton.h">
+      <Filter>Juce Modules\juce_gui_basics\buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\buttons\juce_ShapeButton.h">
+      <Filter>Juce Modules\juce_gui_basics\buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\buttons\juce_TextButton.h">
+      <Filter>Juce Modules\juce_gui_basics\buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\buttons\juce_ToggleButton.h">
+      <Filter>Juce Modules\juce_gui_basics\buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\buttons\juce_ToolbarButton.h">
+      <Filter>Juce Modules\juce_gui_basics\buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\positioning\juce_MarkerList.h">
+      <Filter>Juce Modules\juce_gui_basics\positioning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\positioning\juce_RelativeCoordinate.h">
+      <Filter>Juce Modules\juce_gui_basics\positioning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\positioning\juce_RelativeCoordinatePositioner.h">
+      <Filter>Juce Modules\juce_gui_basics\positioning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\positioning\juce_RelativeParallelogram.h">
+      <Filter>Juce Modules\juce_gui_basics\positioning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\positioning\juce_RelativePoint.h">
+      <Filter>Juce Modules\juce_gui_basics\positioning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\positioning\juce_RelativePointPath.h">
+      <Filter>Juce Modules\juce_gui_basics\positioning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\positioning\juce_RelativeRectangle.h">
+      <Filter>Juce Modules\juce_gui_basics\positioning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\drawables\juce_Drawable.h">
+      <Filter>Juce Modules\juce_gui_basics\drawables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\drawables\juce_DrawableComposite.h">
+      <Filter>Juce Modules\juce_gui_basics\drawables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\drawables\juce_DrawableImage.h">
+      <Filter>Juce Modules\juce_gui_basics\drawables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\drawables\juce_DrawablePath.h">
+      <Filter>Juce Modules\juce_gui_basics\drawables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\drawables\juce_DrawableRectangle.h">
+      <Filter>Juce Modules\juce_gui_basics\drawables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\drawables\juce_DrawableShape.h">
+      <Filter>Juce Modules\juce_gui_basics\drawables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\drawables\juce_DrawableText.h">
+      <Filter>Juce Modules\juce_gui_basics\drawables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\properties\juce_BooleanPropertyComponent.h">
+      <Filter>Juce Modules\juce_gui_basics\properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\properties\juce_ButtonPropertyComponent.h">
+      <Filter>Juce Modules\juce_gui_basics\properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\properties\juce_ChoicePropertyComponent.h">
+      <Filter>Juce Modules\juce_gui_basics\properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\properties\juce_PropertyComponent.h">
+      <Filter>Juce Modules\juce_gui_basics\properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\properties\juce_PropertyPanel.h">
+      <Filter>Juce Modules\juce_gui_basics\properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\properties\juce_SliderPropertyComponent.h">
+      <Filter>Juce Modules\juce_gui_basics\properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\properties\juce_TextPropertyComponent.h">
+      <Filter>Juce Modules\juce_gui_basics\properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\lookandfeel\juce_LookAndFeel.h">
+      <Filter>Juce Modules\juce_gui_basics\lookandfeel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\lookandfeel\juce_LookAndFeel_V1.h">
+      <Filter>Juce Modules\juce_gui_basics\lookandfeel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\lookandfeel\juce_LookAndFeel_V2.h">
+      <Filter>Juce Modules\juce_gui_basics\lookandfeel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\lookandfeel\juce_LookAndFeel_V3.h">
+      <Filter>Juce Modules\juce_gui_basics\lookandfeel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\filebrowser\juce_DirectoryContentsDisplayComponent.h">
+      <Filter>Juce Modules\juce_gui_basics\filebrowser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\filebrowser\juce_DirectoryContentsList.h">
+      <Filter>Juce Modules\juce_gui_basics\filebrowser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\filebrowser\juce_FileBrowserComponent.h">
+      <Filter>Juce Modules\juce_gui_basics\filebrowser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\filebrowser\juce_FileBrowserListener.h">
+      <Filter>Juce Modules\juce_gui_basics\filebrowser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\filebrowser\juce_FileChooser.h">
+      <Filter>Juce Modules\juce_gui_basics\filebrowser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\filebrowser\juce_FileChooserDialogBox.h">
+      <Filter>Juce Modules\juce_gui_basics\filebrowser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\filebrowser\juce_FileListComponent.h">
+      <Filter>Juce Modules\juce_gui_basics\filebrowser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\filebrowser\juce_FilenameComponent.h">
+      <Filter>Juce Modules\juce_gui_basics\filebrowser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\filebrowser\juce_FilePreviewComponent.h">
+      <Filter>Juce Modules\juce_gui_basics\filebrowser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\filebrowser\juce_FileSearchPathListComponent.h">
+      <Filter>Juce Modules\juce_gui_basics\filebrowser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\filebrowser\juce_FileTreeComponent.h">
+      <Filter>Juce Modules\juce_gui_basics\filebrowser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\filebrowser\juce_ImagePreviewComponent.h">
+      <Filter>Juce Modules\juce_gui_basics\filebrowser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\commands\juce_ApplicationCommandID.h">
+      <Filter>Juce Modules\juce_gui_basics\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\commands\juce_ApplicationCommandInfo.h">
+      <Filter>Juce Modules\juce_gui_basics\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\commands\juce_ApplicationCommandManager.h">
+      <Filter>Juce Modules\juce_gui_basics\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\commands\juce_ApplicationCommandTarget.h">
+      <Filter>Juce Modules\juce_gui_basics\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\commands\juce_KeyPressMappingSet.h">
+      <Filter>Juce Modules\juce_gui_basics\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\misc\juce_BubbleComponent.h">
+      <Filter>Juce Modules\juce_gui_basics\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\misc\juce_DropShadower.h">
+      <Filter>Juce Modules\juce_gui_basics\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\application\juce_Application.h">
+      <Filter>Juce Modules\juce_gui_basics\application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_basics\native\juce_MultiTouchMapper.h">
+      <Filter>Juce Modules\juce_gui_basics\native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_extra\juce_gui_extra.h">
+      <Filter>Juce Modules\juce_gui_extra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_extra\code_editor\juce_CodeDocument.h">
+      <Filter>Juce Modules\juce_gui_extra\code_editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_extra\code_editor\juce_CodeEditorComponent.h">
+      <Filter>Juce Modules\juce_gui_extra\code_editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_extra\code_editor\juce_CodeTokeniser.h">
+      <Filter>Juce Modules\juce_gui_extra\code_editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_extra\code_editor\juce_CPlusPlusCodeTokeniser.h">
+      <Filter>Juce Modules\juce_gui_extra\code_editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_extra\code_editor\juce_CPlusPlusCodeTokeniserFunctions.h">
+      <Filter>Juce Modules\juce_gui_extra\code_editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_extra\code_editor\juce_LuaCodeTokeniser.h">
+      <Filter>Juce Modules\juce_gui_extra\code_editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_extra\code_editor\juce_XMLCodeTokeniser.h">
+      <Filter>Juce Modules\juce_gui_extra\code_editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_extra\documents\juce_FileBasedDocument.h">
+      <Filter>Juce Modules\juce_gui_extra\documents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_extra\embedding\juce_ActiveXControlComponent.h">
+      <Filter>Juce Modules\juce_gui_extra\embedding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_extra\embedding\juce_NSViewComponent.h">
+      <Filter>Juce Modules\juce_gui_extra\embedding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_extra\embedding\juce_UIViewComponent.h">
+      <Filter>Juce Modules\juce_gui_extra\embedding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_extra\misc\juce_AnimatedAppComponent.h">
+      <Filter>Juce Modules\juce_gui_extra\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_extra\misc\juce_AppleRemote.h">
+      <Filter>Juce Modules\juce_gui_extra\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_extra\misc\juce_BubbleMessageComponent.h">
+      <Filter>Juce Modules\juce_gui_extra\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_extra\misc\juce_ColourSelector.h">
+      <Filter>Juce Modules\juce_gui_extra\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_extra\misc\juce_KeyMappingEditorComponent.h">
+      <Filter>Juce Modules\juce_gui_extra\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_extra\misc\juce_LiveConstantEditor.h">
+      <Filter>Juce Modules\juce_gui_extra\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_extra\misc\juce_PreferencesPanel.h">
+      <Filter>Juce Modules\juce_gui_extra\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_extra\misc\juce_RecentlyOpenedFilesList.h">
+      <Filter>Juce Modules\juce_gui_extra\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_extra\misc\juce_SplashScreen.h">
+      <Filter>Juce Modules\juce_gui_extra\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_extra\misc\juce_SystemTrayIconComponent.h">
+      <Filter>Juce Modules\juce_gui_extra\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_extra\misc\juce_WebBrowserComponent.h">
+      <Filter>Juce Modules\juce_gui_extra\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\JUCE\modules\juce_gui_extra\native\juce_mac_CarbonViewWrapperComponent.h">
+      <Filter>Juce Modules\juce_gui_extra\native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TTMM\JuceLibraryCode\AppConfig.h">
+      <Filter>Juce Library Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TTMM\JuceLibraryCode\JuceHeader.h">
+      <Filter>Juce Library Code</Filter>
+    </ClInclude>
+    <ClInclude Include="PoseEvent.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="KinectMusician.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="BodyPart.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="KinectBuffer.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="KinectPluginEditor.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="DanceDisplay.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="KinectDevice.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Body.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="PoseType.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="KinectInputPluginProcessor.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_basics\buffers\juce_AudioDataConverters.cpp">
+      <Filter>Juce Modules\juce_audio_basics\buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_basics\buffers\juce_AudioSampleBuffer.cpp">
+      <Filter>Juce Modules\juce_audio_basics\buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_basics\buffers\juce_FloatVectorOperations.cpp">
+      <Filter>Juce Modules\juce_audio_basics\buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_basics\midi\juce_MidiBuffer.cpp">
+      <Filter>Juce Modules\juce_audio_basics\midi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_basics\midi\juce_MidiFile.cpp">
+      <Filter>Juce Modules\juce_audio_basics\midi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_basics\midi\juce_MidiKeyboardState.cpp">
+      <Filter>Juce Modules\juce_audio_basics\midi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_basics\midi\juce_MidiMessage.cpp">
+      <Filter>Juce Modules\juce_audio_basics\midi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_basics\midi\juce_MidiMessageSequence.cpp">
+      <Filter>Juce Modules\juce_audio_basics\midi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_basics\effects\juce_FFT.cpp">
+      <Filter>Juce Modules\juce_audio_basics\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_basics\effects\juce_IIRFilter.cpp">
+      <Filter>Juce Modules\juce_audio_basics\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_basics\effects\juce_LagrangeInterpolator.cpp">
+      <Filter>Juce Modules\juce_audio_basics\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_basics\sources\juce_BufferingAudioSource.cpp">
+      <Filter>Juce Modules\juce_audio_basics\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_basics\sources\juce_ChannelRemappingAudioSource.cpp">
+      <Filter>Juce Modules\juce_audio_basics\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_basics\sources\juce_IIRFilterAudioSource.cpp">
+      <Filter>Juce Modules\juce_audio_basics\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_basics\sources\juce_MixerAudioSource.cpp">
+      <Filter>Juce Modules\juce_audio_basics\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_basics\sources\juce_ResamplingAudioSource.cpp">
+      <Filter>Juce Modules\juce_audio_basics\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_basics\sources\juce_ReverbAudioSource.cpp">
+      <Filter>Juce Modules\juce_audio_basics\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_basics\sources\juce_ToneGeneratorAudioSource.cpp">
+      <Filter>Juce Modules\juce_audio_basics\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_basics\synthesisers\juce_Synthesiser.cpp">
+      <Filter>Juce Modules\juce_audio_basics\synthesisers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_devices\audio_io\juce_AudioDeviceManager.cpp">
+      <Filter>Juce Modules\juce_audio_devices\audio_io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_devices\audio_io\juce_AudioIODevice.cpp">
+      <Filter>Juce Modules\juce_audio_devices\audio_io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_devices\audio_io\juce_AudioIODeviceType.cpp">
+      <Filter>Juce Modules\juce_audio_devices\audio_io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_devices\midi_io\juce_MidiMessageCollector.cpp">
+      <Filter>Juce Modules\juce_audio_devices\midi_io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_devices\midi_io\juce_MidiOutput.cpp">
+      <Filter>Juce Modules\juce_audio_devices\midi_io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_devices\sources\juce_AudioSourcePlayer.cpp">
+      <Filter>Juce Modules\juce_audio_devices\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_devices\sources\juce_AudioTransportSource.cpp">
+      <Filter>Juce Modules\juce_audio_devices\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_devices\audio_cd\juce_AudioCDReader.cpp">
+      <Filter>Juce Modules\juce_audio_devices\audio_cd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_devices\native\juce_android_Audio.cpp">
+      <Filter>Juce Modules\juce_audio_devices\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_devices\native\juce_android_Midi.cpp">
+      <Filter>Juce Modules\juce_audio_devices\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_devices\native\juce_android_OpenSL.cpp">
+      <Filter>Juce Modules\juce_audio_devices\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_devices\native\juce_ios_Audio.cpp">
+      <Filter>Juce Modules\juce_audio_devices\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_devices\native\juce_linux_ALSA.cpp">
+      <Filter>Juce Modules\juce_audio_devices\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_devices\native\juce_linux_AudioCDReader.cpp">
+      <Filter>Juce Modules\juce_audio_devices\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_devices\native\juce_linux_JackAudio.cpp">
+      <Filter>Juce Modules\juce_audio_devices\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_devices\native\juce_linux_Midi.cpp">
+      <Filter>Juce Modules\juce_audio_devices\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_devices\native\juce_mac_CoreAudio.cpp">
+      <Filter>Juce Modules\juce_audio_devices\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_devices\native\juce_mac_CoreMidi.cpp">
+      <Filter>Juce Modules\juce_audio_devices\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_devices\native\juce_win32_ASIO.cpp">
+      <Filter>Juce Modules\juce_audio_devices\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_devices\native\juce_win32_AudioCDBurner.cpp">
+      <Filter>Juce Modules\juce_audio_devices\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_devices\native\juce_win32_AudioCDReader.cpp">
+      <Filter>Juce Modules\juce_audio_devices\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_devices\native\juce_win32_DirectSound.cpp">
+      <Filter>Juce Modules\juce_audio_devices\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_devices\native\juce_win32_Midi.cpp">
+      <Filter>Juce Modules\juce_audio_devices\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_devices\native\juce_win32_WASAPI.cpp">
+      <Filter>Juce Modules\juce_audio_devices\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_formats\format\juce_AudioFormat.cpp">
+      <Filter>Juce Modules\juce_audio_formats\format</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_formats\format\juce_AudioFormatManager.cpp">
+      <Filter>Juce Modules\juce_audio_formats\format</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_formats\format\juce_AudioFormatReader.cpp">
+      <Filter>Juce Modules\juce_audio_formats\format</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_formats\format\juce_AudioFormatReaderSource.cpp">
+      <Filter>Juce Modules\juce_audio_formats\format</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_formats\format\juce_AudioFormatWriter.cpp">
+      <Filter>Juce Modules\juce_audio_formats\format</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_formats\format\juce_AudioSubsectionReader.cpp">
+      <Filter>Juce Modules\juce_audio_formats\format</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_formats\format\juce_BufferingAudioFormatReader.cpp">
+      <Filter>Juce Modules\juce_audio_formats\format</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_formats\codecs\juce_AiffAudioFormat.cpp">
+      <Filter>Juce Modules\juce_audio_formats\codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_formats\codecs\juce_CoreAudioFormat.cpp">
+      <Filter>Juce Modules\juce_audio_formats\codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_formats\codecs\juce_FlacAudioFormat.cpp">
+      <Filter>Juce Modules\juce_audio_formats\codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_formats\codecs\juce_LAMEEncoderAudioFormat.cpp">
+      <Filter>Juce Modules\juce_audio_formats\codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_formats\codecs\juce_MP3AudioFormat.cpp">
+      <Filter>Juce Modules\juce_audio_formats\codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_formats\codecs\juce_OggVorbisAudioFormat.cpp">
+      <Filter>Juce Modules\juce_audio_formats\codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_formats\codecs\juce_QuickTimeAudioFormat.cpp">
+      <Filter>Juce Modules\juce_audio_formats\codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_formats\codecs\juce_WavAudioFormat.cpp">
+      <Filter>Juce Modules\juce_audio_formats\codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_formats\codecs\juce_WindowsMediaAudioFormat.cpp">
+      <Filter>Juce Modules\juce_audio_formats\codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_formats\sampler\juce_Sampler.cpp">
+      <Filter>Juce Modules\juce_audio_formats\sampler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_processors\processors\juce_AudioProcessor.cpp">
+      <Filter>Juce Modules\juce_audio_processors\processors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_processors\processors\juce_AudioProcessorEditor.cpp">
+      <Filter>Juce Modules\juce_audio_processors\processors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_processors\processors\juce_AudioProcessorGraph.cpp">
+      <Filter>Juce Modules\juce_audio_processors\processors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_processors\processors\juce_GenericAudioProcessorEditor.cpp">
+      <Filter>Juce Modules\juce_audio_processors\processors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_processors\processors\juce_PluginDescription.cpp">
+      <Filter>Juce Modules\juce_audio_processors\processors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_processors\format\juce_AudioPluginFormat.cpp">
+      <Filter>Juce Modules\juce_audio_processors\format</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_processors\format\juce_AudioPluginFormatManager.cpp">
+      <Filter>Juce Modules\juce_audio_processors\format</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_processors\format_types\juce_LADSPAPluginFormat.cpp">
+      <Filter>Juce Modules\juce_audio_processors\format_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_processors\format_types\juce_VST3PluginFormat.cpp">
+      <Filter>Juce Modules\juce_audio_processors\format_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_processors\format_types\juce_VSTPluginFormat.cpp">
+      <Filter>Juce Modules\juce_audio_processors\format_types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_processors\scanning\juce_KnownPluginList.cpp">
+      <Filter>Juce Modules\juce_audio_processors\scanning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_processors\scanning\juce_PluginDirectoryScanner.cpp">
+      <Filter>Juce Modules\juce_audio_processors\scanning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_processors\scanning\juce_PluginListComponent.cpp">
+      <Filter>Juce Modules\juce_audio_processors\scanning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\text\juce_CharacterFunctions.cpp">
+      <Filter>Juce Modules\juce_core\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\text\juce_Identifier.cpp">
+      <Filter>Juce Modules\juce_core\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\text\juce_LocalisedStrings.cpp">
+      <Filter>Juce Modules\juce_core\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\text\juce_String.cpp">
+      <Filter>Juce Modules\juce_core\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\text\juce_StringArray.cpp">
+      <Filter>Juce Modules\juce_core\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\text\juce_StringPairArray.cpp">
+      <Filter>Juce Modules\juce_core\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\text\juce_StringPool.cpp">
+      <Filter>Juce Modules\juce_core\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\text\juce_TextDiff.cpp">
+      <Filter>Juce Modules\juce_core\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\maths\juce_BigInteger.cpp">
+      <Filter>Juce Modules\juce_core\maths</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\maths\juce_Expression.cpp">
+      <Filter>Juce Modules\juce_core\maths</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\maths\juce_Random.cpp">
+      <Filter>Juce Modules\juce_core\maths</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\memory\juce_MemoryBlock.cpp">
+      <Filter>Juce Modules\juce_core\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\containers\juce_AbstractFifo.cpp">
+      <Filter>Juce Modules\juce_core\containers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\containers\juce_DynamicObject.cpp">
+      <Filter>Juce Modules\juce_core\containers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\containers\juce_NamedValueSet.cpp">
+      <Filter>Juce Modules\juce_core\containers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\containers\juce_PropertySet.cpp">
+      <Filter>Juce Modules\juce_core\containers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\containers\juce_Variant.cpp">
+      <Filter>Juce Modules\juce_core\containers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\threads\juce_ChildProcess.cpp">
+      <Filter>Juce Modules\juce_core\threads</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\threads\juce_HighResolutionTimer.cpp">
+      <Filter>Juce Modules\juce_core\threads</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\threads\juce_ReadWriteLock.cpp">
+      <Filter>Juce Modules\juce_core\threads</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\threads\juce_Thread.cpp">
+      <Filter>Juce Modules\juce_core\threads</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\threads\juce_ThreadPool.cpp">
+      <Filter>Juce Modules\juce_core\threads</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\threads\juce_TimeSliceThread.cpp">
+      <Filter>Juce Modules\juce_core\threads</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\time\juce_PerformanceCounter.cpp">
+      <Filter>Juce Modules\juce_core\time</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\time\juce_RelativeTime.cpp">
+      <Filter>Juce Modules\juce_core\time</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\time\juce_Time.cpp">
+      <Filter>Juce Modules\juce_core\time</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\files\juce_DirectoryIterator.cpp">
+      <Filter>Juce Modules\juce_core\files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\files\juce_File.cpp">
+      <Filter>Juce Modules\juce_core\files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\files\juce_FileFilter.cpp">
+      <Filter>Juce Modules\juce_core\files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\files\juce_FileInputStream.cpp">
+      <Filter>Juce Modules\juce_core\files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\files\juce_FileOutputStream.cpp">
+      <Filter>Juce Modules\juce_core\files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\files\juce_FileSearchPath.cpp">
+      <Filter>Juce Modules\juce_core\files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\files\juce_TemporaryFile.cpp">
+      <Filter>Juce Modules\juce_core\files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\files\juce_WildcardFileFilter.cpp">
+      <Filter>Juce Modules\juce_core\files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\network\juce_IPAddress.cpp">
+      <Filter>Juce Modules\juce_core\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\network\juce_MACAddress.cpp">
+      <Filter>Juce Modules\juce_core\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\network\juce_NamedPipe.cpp">
+      <Filter>Juce Modules\juce_core\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\network\juce_Socket.cpp">
+      <Filter>Juce Modules\juce_core\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\network\juce_URL.cpp">
+      <Filter>Juce Modules\juce_core\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\streams\juce_BufferedInputStream.cpp">
+      <Filter>Juce Modules\juce_core\streams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\streams\juce_FileInputSource.cpp">
+      <Filter>Juce Modules\juce_core\streams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\streams\juce_InputStream.cpp">
+      <Filter>Juce Modules\juce_core\streams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\streams\juce_MemoryInputStream.cpp">
+      <Filter>Juce Modules\juce_core\streams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\streams\juce_MemoryOutputStream.cpp">
+      <Filter>Juce Modules\juce_core\streams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\streams\juce_OutputStream.cpp">
+      <Filter>Juce Modules\juce_core\streams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\streams\juce_SubregionStream.cpp">
+      <Filter>Juce Modules\juce_core\streams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\logging\juce_FileLogger.cpp">
+      <Filter>Juce Modules\juce_core\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\logging\juce_Logger.cpp">
+      <Filter>Juce Modules\juce_core\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\system\juce_SystemStats.cpp">
+      <Filter>Juce Modules\juce_core\system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\xml\juce_XmlDocument.cpp">
+      <Filter>Juce Modules\juce_core\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\xml\juce_XmlElement.cpp">
+      <Filter>Juce Modules\juce_core\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\javascript\juce_Javascript.cpp">
+      <Filter>Juce Modules\juce_core\javascript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\javascript\juce_JSON.cpp">
+      <Filter>Juce Modules\juce_core\javascript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\zip\juce_GZIPCompressorOutputStream.cpp">
+      <Filter>Juce Modules\juce_core\zip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\zip\juce_GZIPDecompressorInputStream.cpp">
+      <Filter>Juce Modules\juce_core\zip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\zip\juce_ZipFile.cpp">
+      <Filter>Juce Modules\juce_core\zip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\unit_tests\juce_UnitTest.cpp">
+      <Filter>Juce Modules\juce_core\unit_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\misc\juce_Result.cpp">
+      <Filter>Juce Modules\juce_core\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\misc\juce_Uuid.cpp">
+      <Filter>Juce Modules\juce_core\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\native\juce_android_Files.cpp">
+      <Filter>Juce Modules\juce_core\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\native\juce_android_Misc.cpp">
+      <Filter>Juce Modules\juce_core\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\native\juce_android_Network.cpp">
+      <Filter>Juce Modules\juce_core\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\native\juce_android_SystemStats.cpp">
+      <Filter>Juce Modules\juce_core\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\native\juce_android_Threads.cpp">
+      <Filter>Juce Modules\juce_core\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\native\juce_linux_CommonFile.cpp">
+      <Filter>Juce Modules\juce_core\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\native\juce_linux_Files.cpp">
+      <Filter>Juce Modules\juce_core\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\native\juce_linux_Network.cpp">
+      <Filter>Juce Modules\juce_core\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\native\juce_linux_SystemStats.cpp">
+      <Filter>Juce Modules\juce_core\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\native\juce_linux_Threads.cpp">
+      <Filter>Juce Modules\juce_core\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\native\juce_posix_NamedPipe.cpp">
+      <Filter>Juce Modules\juce_core\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\native\juce_win32_Files.cpp">
+      <Filter>Juce Modules\juce_core\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\native\juce_win32_Network.cpp">
+      <Filter>Juce Modules\juce_core\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\native\juce_win32_Registry.cpp">
+      <Filter>Juce Modules\juce_core\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\native\juce_win32_SystemStats.cpp">
+      <Filter>Juce Modules\juce_core\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\native\juce_win32_Threads.cpp">
+      <Filter>Juce Modules\juce_core\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_data_structures\values\juce_Value.cpp">
+      <Filter>Juce Modules\juce_data_structures\values</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_data_structures\values\juce_ValueTree.cpp">
+      <Filter>Juce Modules\juce_data_structures\values</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_data_structures\values\juce_ValueTreeSynchroniser.cpp">
+      <Filter>Juce Modules\juce_data_structures\values</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_data_structures\undomanager\juce_UndoManager.cpp">
+      <Filter>Juce Modules\juce_data_structures\undomanager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_data_structures\app_properties\juce_ApplicationProperties.cpp">
+      <Filter>Juce Modules\juce_data_structures\app_properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_data_structures\app_properties\juce_PropertiesFile.cpp">
+      <Filter>Juce Modules\juce_data_structures\app_properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_events\messages\juce_ApplicationBase.cpp">
+      <Filter>Juce Modules\juce_events\messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_events\messages\juce_DeletedAtShutdown.cpp">
+      <Filter>Juce Modules\juce_events\messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_events\messages\juce_MessageListener.cpp">
+      <Filter>Juce Modules\juce_events\messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_events\messages\juce_MessageManager.cpp">
+      <Filter>Juce Modules\juce_events\messages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_events\timers\juce_MultiTimer.cpp">
+      <Filter>Juce Modules\juce_events\timers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_events\timers\juce_Timer.cpp">
+      <Filter>Juce Modules\juce_events\timers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_events\broadcasters\juce_ActionBroadcaster.cpp">
+      <Filter>Juce Modules\juce_events\broadcasters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_events\broadcasters\juce_AsyncUpdater.cpp">
+      <Filter>Juce Modules\juce_events\broadcasters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_events\broadcasters\juce_ChangeBroadcaster.cpp">
+      <Filter>Juce Modules\juce_events\broadcasters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_events\interprocess\juce_ConnectedChildProcess.cpp">
+      <Filter>Juce Modules\juce_events\interprocess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_events\interprocess\juce_InterprocessConnection.cpp">
+      <Filter>Juce Modules\juce_events\interprocess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_events\interprocess\juce_InterprocessConnectionServer.cpp">
+      <Filter>Juce Modules\juce_events\interprocess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_events\native\juce_android_Messaging.cpp">
+      <Filter>Juce Modules\juce_events\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_events\native\juce_linux_Messaging.cpp">
+      <Filter>Juce Modules\juce_events\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_events\native\juce_win32_Messaging.cpp">
+      <Filter>Juce Modules\juce_events\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_graphics\colour\juce_Colour.cpp">
+      <Filter>Juce Modules\juce_graphics\colour</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_graphics\colour\juce_ColourGradient.cpp">
+      <Filter>Juce Modules\juce_graphics\colour</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_graphics\colour\juce_Colours.cpp">
+      <Filter>Juce Modules\juce_graphics\colour</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_graphics\colour\juce_FillType.cpp">
+      <Filter>Juce Modules\juce_graphics\colour</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_graphics\contexts\juce_GraphicsContext.cpp">
+      <Filter>Juce Modules\juce_graphics\contexts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_graphics\contexts\juce_LowLevelGraphicsPostScriptRenderer.cpp">
+      <Filter>Juce Modules\juce_graphics\contexts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_graphics\contexts\juce_LowLevelGraphicsSoftwareRenderer.cpp">
+      <Filter>Juce Modules\juce_graphics\contexts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_graphics\images\juce_Image.cpp">
+      <Filter>Juce Modules\juce_graphics\images</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_graphics\images\juce_ImageCache.cpp">
+      <Filter>Juce Modules\juce_graphics\images</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_graphics\images\juce_ImageConvolutionKernel.cpp">
+      <Filter>Juce Modules\juce_graphics\images</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_graphics\images\juce_ImageFileFormat.cpp">
+      <Filter>Juce Modules\juce_graphics\images</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_graphics\image_formats\juce_GIFLoader.cpp">
+      <Filter>Juce Modules\juce_graphics\image_formats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_graphics\image_formats\juce_JPEGLoader.cpp">
+      <Filter>Juce Modules\juce_graphics\image_formats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_graphics\image_formats\juce_PNGLoader.cpp">
+      <Filter>Juce Modules\juce_graphics\image_formats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_graphics\geometry\juce_AffineTransform.cpp">
+      <Filter>Juce Modules\juce_graphics\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_graphics\geometry\juce_EdgeTable.cpp">
+      <Filter>Juce Modules\juce_graphics\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_graphics\geometry\juce_Path.cpp">
+      <Filter>Juce Modules\juce_graphics\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_graphics\geometry\juce_PathIterator.cpp">
+      <Filter>Juce Modules\juce_graphics\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_graphics\geometry\juce_PathStrokeType.cpp">
+      <Filter>Juce Modules\juce_graphics\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_graphics\placement\juce_RectanglePlacement.cpp">
+      <Filter>Juce Modules\juce_graphics\placement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_graphics\fonts\juce_AttributedString.cpp">
+      <Filter>Juce Modules\juce_graphics\fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_graphics\fonts\juce_CustomTypeface.cpp">
+      <Filter>Juce Modules\juce_graphics\fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_graphics\fonts\juce_Font.cpp">
+      <Filter>Juce Modules\juce_graphics\fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_graphics\fonts\juce_GlyphArrangement.cpp">
+      <Filter>Juce Modules\juce_graphics\fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_graphics\fonts\juce_TextLayout.cpp">
+      <Filter>Juce Modules\juce_graphics\fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_graphics\fonts\juce_Typeface.cpp">
+      <Filter>Juce Modules\juce_graphics\fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_graphics\effects\juce_DropShadowEffect.cpp">
+      <Filter>Juce Modules\juce_graphics\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_graphics\effects\juce_GlowEffect.cpp">
+      <Filter>Juce Modules\juce_graphics\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_graphics\native\juce_android_Fonts.cpp">
+      <Filter>Juce Modules\juce_graphics\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_graphics\native\juce_android_GraphicsContext.cpp">
+      <Filter>Juce Modules\juce_graphics\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_graphics\native\juce_freetype_Fonts.cpp">
+      <Filter>Juce Modules\juce_graphics\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_graphics\native\juce_linux_Fonts.cpp">
+      <Filter>Juce Modules\juce_graphics\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_graphics\native\juce_win32_Direct2DGraphicsContext.cpp">
+      <Filter>Juce Modules\juce_graphics\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_graphics\native\juce_win32_DirectWriteTypeface.cpp">
+      <Filter>Juce Modules\juce_graphics\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_graphics\native\juce_win32_DirectWriteTypeLayout.cpp">
+      <Filter>Juce Modules\juce_graphics\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_graphics\native\juce_win32_Fonts.cpp">
+      <Filter>Juce Modules\juce_graphics\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\components\juce_Component.cpp">
+      <Filter>Juce Modules\juce_gui_basics\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\components\juce_ComponentListener.cpp">
+      <Filter>Juce Modules\juce_gui_basics\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\components\juce_Desktop.cpp">
+      <Filter>Juce Modules\juce_gui_basics\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\components\juce_ModalComponentManager.cpp">
+      <Filter>Juce Modules\juce_gui_basics\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\mouse\juce_ComponentDragger.cpp">
+      <Filter>Juce Modules\juce_gui_basics\mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\mouse\juce_DragAndDropContainer.cpp">
+      <Filter>Juce Modules\juce_gui_basics\mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\mouse\juce_MouseCursor.cpp">
+      <Filter>Juce Modules\juce_gui_basics\mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\mouse\juce_MouseEvent.cpp">
+      <Filter>Juce Modules\juce_gui_basics\mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\mouse\juce_MouseInactivityDetector.cpp">
+      <Filter>Juce Modules\juce_gui_basics\mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\mouse\juce_MouseInputSource.cpp">
+      <Filter>Juce Modules\juce_gui_basics\mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\mouse\juce_MouseListener.cpp">
+      <Filter>Juce Modules\juce_gui_basics\mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\keyboard\juce_CaretComponent.cpp">
+      <Filter>Juce Modules\juce_gui_basics\keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\keyboard\juce_KeyboardFocusTraverser.cpp">
+      <Filter>Juce Modules\juce_gui_basics\keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\keyboard\juce_KeyListener.cpp">
+      <Filter>Juce Modules\juce_gui_basics\keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\keyboard\juce_KeyPress.cpp">
+      <Filter>Juce Modules\juce_gui_basics\keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\keyboard\juce_ModifierKeys.cpp">
+      <Filter>Juce Modules\juce_gui_basics\keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\widgets\juce_ComboBox.cpp">
+      <Filter>Juce Modules\juce_gui_basics\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\widgets\juce_ImageComponent.cpp">
+      <Filter>Juce Modules\juce_gui_basics\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\widgets\juce_Label.cpp">
+      <Filter>Juce Modules\juce_gui_basics\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\widgets\juce_ListBox.cpp">
+      <Filter>Juce Modules\juce_gui_basics\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\widgets\juce_ProgressBar.cpp">
+      <Filter>Juce Modules\juce_gui_basics\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\widgets\juce_Slider.cpp">
+      <Filter>Juce Modules\juce_gui_basics\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\widgets\juce_TableHeaderComponent.cpp">
+      <Filter>Juce Modules\juce_gui_basics\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\widgets\juce_TableListBox.cpp">
+      <Filter>Juce Modules\juce_gui_basics\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\widgets\juce_TextEditor.cpp">
+      <Filter>Juce Modules\juce_gui_basics\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\widgets\juce_Toolbar.cpp">
+      <Filter>Juce Modules\juce_gui_basics\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\widgets\juce_ToolbarItemComponent.cpp">
+      <Filter>Juce Modules\juce_gui_basics\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\widgets\juce_ToolbarItemPalette.cpp">
+      <Filter>Juce Modules\juce_gui_basics\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\widgets\juce_TreeView.cpp">
+      <Filter>Juce Modules\juce_gui_basics\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\windows\juce_AlertWindow.cpp">
+      <Filter>Juce Modules\juce_gui_basics\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\windows\juce_CallOutBox.cpp">
+      <Filter>Juce Modules\juce_gui_basics\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\windows\juce_ComponentPeer.cpp">
+      <Filter>Juce Modules\juce_gui_basics\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\windows\juce_DialogWindow.cpp">
+      <Filter>Juce Modules\juce_gui_basics\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\windows\juce_DocumentWindow.cpp">
+      <Filter>Juce Modules\juce_gui_basics\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\windows\juce_ResizableWindow.cpp">
+      <Filter>Juce Modules\juce_gui_basics\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\windows\juce_ThreadWithProgressWindow.cpp">
+      <Filter>Juce Modules\juce_gui_basics\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\windows\juce_TooltipWindow.cpp">
+      <Filter>Juce Modules\juce_gui_basics\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\windows\juce_TopLevelWindow.cpp">
+      <Filter>Juce Modules\juce_gui_basics\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\menus\juce_MenuBarComponent.cpp">
+      <Filter>Juce Modules\juce_gui_basics\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\menus\juce_MenuBarModel.cpp">
+      <Filter>Juce Modules\juce_gui_basics\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\menus\juce_PopupMenu.cpp">
+      <Filter>Juce Modules\juce_gui_basics\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\layout\juce_ComponentAnimator.cpp">
+      <Filter>Juce Modules\juce_gui_basics\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\layout\juce_ComponentBoundsConstrainer.cpp">
+      <Filter>Juce Modules\juce_gui_basics\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\layout\juce_ComponentBuilder.cpp">
+      <Filter>Juce Modules\juce_gui_basics\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\layout\juce_ComponentMovementWatcher.cpp">
+      <Filter>Juce Modules\juce_gui_basics\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\layout\juce_ConcertinaPanel.cpp">
+      <Filter>Juce Modules\juce_gui_basics\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\layout\juce_GroupComponent.cpp">
+      <Filter>Juce Modules\juce_gui_basics\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\layout\juce_MultiDocumentPanel.cpp">
+      <Filter>Juce Modules\juce_gui_basics\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\layout\juce_ResizableBorderComponent.cpp">
+      <Filter>Juce Modules\juce_gui_basics\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\layout\juce_ResizableCornerComponent.cpp">
+      <Filter>Juce Modules\juce_gui_basics\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\layout\juce_ResizableEdgeComponent.cpp">
+      <Filter>Juce Modules\juce_gui_basics\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\layout\juce_ScrollBar.cpp">
+      <Filter>Juce Modules\juce_gui_basics\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\layout\juce_StretchableLayoutManager.cpp">
+      <Filter>Juce Modules\juce_gui_basics\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\layout\juce_StretchableLayoutResizerBar.cpp">
+      <Filter>Juce Modules\juce_gui_basics\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\layout\juce_StretchableObjectResizer.cpp">
+      <Filter>Juce Modules\juce_gui_basics\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\layout\juce_TabbedButtonBar.cpp">
+      <Filter>Juce Modules\juce_gui_basics\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\layout\juce_TabbedComponent.cpp">
+      <Filter>Juce Modules\juce_gui_basics\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\layout\juce_Viewport.cpp">
+      <Filter>Juce Modules\juce_gui_basics\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\buttons\juce_ArrowButton.cpp">
+      <Filter>Juce Modules\juce_gui_basics\buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\buttons\juce_Button.cpp">
+      <Filter>Juce Modules\juce_gui_basics\buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\buttons\juce_DrawableButton.cpp">
+      <Filter>Juce Modules\juce_gui_basics\buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\buttons\juce_HyperlinkButton.cpp">
+      <Filter>Juce Modules\juce_gui_basics\buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\buttons\juce_ImageButton.cpp">
+      <Filter>Juce Modules\juce_gui_basics\buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\buttons\juce_ShapeButton.cpp">
+      <Filter>Juce Modules\juce_gui_basics\buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\buttons\juce_TextButton.cpp">
+      <Filter>Juce Modules\juce_gui_basics\buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\buttons\juce_ToggleButton.cpp">
+      <Filter>Juce Modules\juce_gui_basics\buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\buttons\juce_ToolbarButton.cpp">
+      <Filter>Juce Modules\juce_gui_basics\buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\positioning\juce_MarkerList.cpp">
+      <Filter>Juce Modules\juce_gui_basics\positioning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\positioning\juce_RelativeCoordinate.cpp">
+      <Filter>Juce Modules\juce_gui_basics\positioning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\positioning\juce_RelativeCoordinatePositioner.cpp">
+      <Filter>Juce Modules\juce_gui_basics\positioning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\positioning\juce_RelativeParallelogram.cpp">
+      <Filter>Juce Modules\juce_gui_basics\positioning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\positioning\juce_RelativePoint.cpp">
+      <Filter>Juce Modules\juce_gui_basics\positioning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\positioning\juce_RelativePointPath.cpp">
+      <Filter>Juce Modules\juce_gui_basics\positioning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\positioning\juce_RelativeRectangle.cpp">
+      <Filter>Juce Modules\juce_gui_basics\positioning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\drawables\juce_Drawable.cpp">
+      <Filter>Juce Modules\juce_gui_basics\drawables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\drawables\juce_DrawableComposite.cpp">
+      <Filter>Juce Modules\juce_gui_basics\drawables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\drawables\juce_DrawableImage.cpp">
+      <Filter>Juce Modules\juce_gui_basics\drawables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\drawables\juce_DrawablePath.cpp">
+      <Filter>Juce Modules\juce_gui_basics\drawables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\drawables\juce_DrawableRectangle.cpp">
+      <Filter>Juce Modules\juce_gui_basics\drawables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\drawables\juce_DrawableShape.cpp">
+      <Filter>Juce Modules\juce_gui_basics\drawables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\drawables\juce_DrawableText.cpp">
+      <Filter>Juce Modules\juce_gui_basics\drawables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\drawables\juce_SVGParser.cpp">
+      <Filter>Juce Modules\juce_gui_basics\drawables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\properties\juce_BooleanPropertyComponent.cpp">
+      <Filter>Juce Modules\juce_gui_basics\properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\properties\juce_ButtonPropertyComponent.cpp">
+      <Filter>Juce Modules\juce_gui_basics\properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\properties\juce_ChoicePropertyComponent.cpp">
+      <Filter>Juce Modules\juce_gui_basics\properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\properties\juce_PropertyComponent.cpp">
+      <Filter>Juce Modules\juce_gui_basics\properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\properties\juce_PropertyPanel.cpp">
+      <Filter>Juce Modules\juce_gui_basics\properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\properties\juce_SliderPropertyComponent.cpp">
+      <Filter>Juce Modules\juce_gui_basics\properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\properties\juce_TextPropertyComponent.cpp">
+      <Filter>Juce Modules\juce_gui_basics\properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\lookandfeel\juce_LookAndFeel.cpp">
+      <Filter>Juce Modules\juce_gui_basics\lookandfeel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\lookandfeel\juce_LookAndFeel_V1.cpp">
+      <Filter>Juce Modules\juce_gui_basics\lookandfeel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\lookandfeel\juce_LookAndFeel_V2.cpp">
+      <Filter>Juce Modules\juce_gui_basics\lookandfeel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\lookandfeel\juce_LookAndFeel_V3.cpp">
+      <Filter>Juce Modules\juce_gui_basics\lookandfeel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\filebrowser\juce_DirectoryContentsDisplayComponent.cpp">
+      <Filter>Juce Modules\juce_gui_basics\filebrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\filebrowser\juce_DirectoryContentsList.cpp">
+      <Filter>Juce Modules\juce_gui_basics\filebrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\filebrowser\juce_FileBrowserComponent.cpp">
+      <Filter>Juce Modules\juce_gui_basics\filebrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\filebrowser\juce_FileChooser.cpp">
+      <Filter>Juce Modules\juce_gui_basics\filebrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\filebrowser\juce_FileChooserDialogBox.cpp">
+      <Filter>Juce Modules\juce_gui_basics\filebrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\filebrowser\juce_FileListComponent.cpp">
+      <Filter>Juce Modules\juce_gui_basics\filebrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\filebrowser\juce_FilenameComponent.cpp">
+      <Filter>Juce Modules\juce_gui_basics\filebrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\filebrowser\juce_FileSearchPathListComponent.cpp">
+      <Filter>Juce Modules\juce_gui_basics\filebrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\filebrowser\juce_FileTreeComponent.cpp">
+      <Filter>Juce Modules\juce_gui_basics\filebrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\filebrowser\juce_ImagePreviewComponent.cpp">
+      <Filter>Juce Modules\juce_gui_basics\filebrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\commands\juce_ApplicationCommandInfo.cpp">
+      <Filter>Juce Modules\juce_gui_basics\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\commands\juce_ApplicationCommandManager.cpp">
+      <Filter>Juce Modules\juce_gui_basics\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\commands\juce_ApplicationCommandTarget.cpp">
+      <Filter>Juce Modules\juce_gui_basics\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\commands\juce_KeyPressMappingSet.cpp">
+      <Filter>Juce Modules\juce_gui_basics\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\misc\juce_BubbleComponent.cpp">
+      <Filter>Juce Modules\juce_gui_basics\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\misc\juce_DropShadower.cpp">
+      <Filter>Juce Modules\juce_gui_basics\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\application\juce_Application.cpp">
+      <Filter>Juce Modules\juce_gui_basics\application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\native\juce_android_FileChooser.cpp">
+      <Filter>Juce Modules\juce_gui_basics\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\native\juce_android_Windowing.cpp">
+      <Filter>Juce Modules\juce_gui_basics\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\native\juce_linux_Clipboard.cpp">
+      <Filter>Juce Modules\juce_gui_basics\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\native\juce_linux_FileChooser.cpp">
+      <Filter>Juce Modules\juce_gui_basics\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\native\juce_linux_Windowing.cpp">
+      <Filter>Juce Modules\juce_gui_basics\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\native\juce_win32_DragAndDrop.cpp">
+      <Filter>Juce Modules\juce_gui_basics\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\native\juce_win32_FileChooser.cpp">
+      <Filter>Juce Modules\juce_gui_basics\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\native\juce_win32_Windowing.cpp">
+      <Filter>Juce Modules\juce_gui_basics\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_extra\code_editor\juce_CodeDocument.cpp">
+      <Filter>Juce Modules\juce_gui_extra\code_editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_extra\code_editor\juce_CodeEditorComponent.cpp">
+      <Filter>Juce Modules\juce_gui_extra\code_editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_extra\code_editor\juce_CPlusPlusCodeTokeniser.cpp">
+      <Filter>Juce Modules\juce_gui_extra\code_editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_extra\code_editor\juce_LuaCodeTokeniser.cpp">
+      <Filter>Juce Modules\juce_gui_extra\code_editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_extra\code_editor\juce_XMLCodeTokeniser.cpp">
+      <Filter>Juce Modules\juce_gui_extra\code_editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_extra\documents\juce_FileBasedDocument.cpp">
+      <Filter>Juce Modules\juce_gui_extra\documents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_extra\misc\juce_AnimatedAppComponent.cpp">
+      <Filter>Juce Modules\juce_gui_extra\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_extra\misc\juce_BubbleMessageComponent.cpp">
+      <Filter>Juce Modules\juce_gui_extra\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_extra\misc\juce_ColourSelector.cpp">
+      <Filter>Juce Modules\juce_gui_extra\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_extra\misc\juce_KeyMappingEditorComponent.cpp">
+      <Filter>Juce Modules\juce_gui_extra\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_extra\misc\juce_LiveConstantEditor.cpp">
+      <Filter>Juce Modules\juce_gui_extra\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_extra\misc\juce_PreferencesPanel.cpp">
+      <Filter>Juce Modules\juce_gui_extra\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_extra\misc\juce_RecentlyOpenedFilesList.cpp">
+      <Filter>Juce Modules\juce_gui_extra\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_extra\misc\juce_SplashScreen.cpp">
+      <Filter>Juce Modules\juce_gui_extra\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_extra\misc\juce_SystemTrayIconComponent.cpp">
+      <Filter>Juce Modules\juce_gui_extra\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_extra\native\juce_android_WebBrowserComponent.cpp">
+      <Filter>Juce Modules\juce_gui_extra\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_extra\native\juce_linux_SystemTrayIcon.cpp">
+      <Filter>Juce Modules\juce_gui_extra\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_extra\native\juce_linux_WebBrowserComponent.cpp">
+      <Filter>Juce Modules\juce_gui_extra\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_extra\native\juce_mac_SystemTrayIcon.cpp">
+      <Filter>Juce Modules\juce_gui_extra\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_extra\native\juce_win32_ActiveXComponent.cpp">
+      <Filter>Juce Modules\juce_gui_extra\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_extra\native\juce_win32_SystemTrayIcon.cpp">
+      <Filter>Juce Modules\juce_gui_extra\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_extra\native\juce_win32_WebBrowserComponent.cpp">
+      <Filter>Juce Modules\juce_gui_extra\native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_basics\juce_audio_basics.cpp">
+      <Filter>Juce Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp">
+      <Filter>Juce Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp">
+      <Filter>Juce Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_plugin_client\AAX\juce_AAX_Wrapper.cpp">
+      <Filter>Juce Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_plugin_client\RTAS\juce_RTAS_DigiCode1.cpp">
+      <Filter>Juce Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_plugin_client\RTAS\juce_RTAS_DigiCode2.cpp">
+      <Filter>Juce Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_plugin_client\RTAS\juce_RTAS_DigiCode3.cpp">
+      <Filter>Juce Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_plugin_client\RTAS\juce_RTAS_WinUtilities.cpp">
+      <Filter>Juce Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_plugin_client\RTAS\juce_RTAS_Wrapper.cpp">
+      <Filter>Juce Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_plugin_client\utility\juce_PluginUtilities.cpp">
+      <Filter>Juce Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_plugin_client\VST3\juce_VST3_Wrapper.cpp">
+      <Filter>Juce Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_processors\juce_audio_processors.cpp">
+      <Filter>Juce Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\juce_core.cpp">
+      <Filter>Juce Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_data_structures\juce_data_structures.cpp">
+      <Filter>Juce Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_events\juce_events.cpp">
+      <Filter>Juce Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_graphics\juce_graphics.cpp">
+      <Filter>Juce Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\juce_gui_basics.cpp">
+      <Filter>Juce Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_extra\juce_gui_extra.cpp">
+      <Filter>Juce Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TTMM\Source\GeneralPluginProcessor.cpp">
+      <Filter>Quelldateien\TTMM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_plugin_client\VST\juce_VST_Wrapper.cpp">
+      <Filter>Juce Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="KinectMusician.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="KinectBuffer.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TTMM\Source\DataExchange.pb.cc">
+      <Filter>Quelldateien\TTMM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TTMM\Source\TimeTools.cpp">
+      <Filter>Quelldateien\TTMM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TTMM\Source\IPCConnection.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TTMM\Source\FileWriter.cpp">
+      <Filter>Quelldateien\TTMM</Filter>
+    </ClCompile>
+    <ClCompile Include="KinectPluginEditor.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="DanceDisplay.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\External\JUCE\modules\juce_audio_basics\juce_module_info">
+      <Filter>Juce Modules\juce_audio_basics</Filter>
+    </None>
+    <None Include="..\External\JUCE\modules\juce_audio_devices\juce_module_info">
+      <Filter>Juce Modules\juce_audio_devices</Filter>
+    </None>
+    <None Include="..\External\JUCE\modules\juce_audio_formats\juce_module_info">
+      <Filter>Juce Modules\juce_audio_formats</Filter>
+    </None>
+    <None Include="..\External\JUCE\modules\juce_audio_plugin_client\juce_module_info">
+      <Filter>Juce Modules\juce_audio_plugin_client</Filter>
+    </None>
+    <None Include="..\External\JUCE\modules\juce_audio_processors\juce_module_info">
+      <Filter>Juce Modules\juce_audio_processors</Filter>
+    </None>
+    <None Include="..\External\JUCE\modules\juce_core\juce_module_info">
+      <Filter>Juce Modules\juce_core</Filter>
+    </None>
+    <None Include="..\External\JUCE\modules\juce_data_structures\juce_module_info">
+      <Filter>Juce Modules\juce_data_structures</Filter>
+    </None>
+    <None Include="..\External\JUCE\modules\juce_events\juce_module_info">
+      <Filter>Juce Modules\juce_events</Filter>
+    </None>
+    <None Include="..\External\JUCE\modules\juce_graphics\juce_module_info">
+      <Filter>Juce Modules\juce_graphics</Filter>
+    </None>
+    <None Include="..\External\JUCE\modules\juce_gui_basics\juce_module_info">
+      <Filter>Juce Modules\juce_gui_basics</Filter>
+    </None>
+    <None Include="..\External\JUCE\modules\juce_gui_extra\juce_module_info">
+      <Filter>Juce Modules\juce_gui_extra</Filter>
+    </None>
+    <None Include="..\External\JUCE\modules\juce_audio_plugin_client\RTAS\juce_RTAS_WinResources.rsr">
+      <Filter>Juce Library Code</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\TTMM\resources.rc">
+      <Filter>Juce Library Code</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

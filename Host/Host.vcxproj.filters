@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="JuceLibraryCode">
+      <UniqueIdentifier>{6fb53509-b729-4be0-a906-cba66291d801}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\TTMM">
+      <UniqueIdentifier>{1297ce40-bb87-42d0-8b91-7bf3f673ec9d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\FilterGraph.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GraphEditorPanel.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\InternalFilters.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MainHostWindow.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="JuceLibraryCode\JuceHeader.h">
+      <Filter>JuceLibraryCode</Filter>
+    </ClInclude>
+    <ClInclude Include="JuceLibraryCode\AppConfig.h">
+      <Filter>JuceLibraryCode</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\FilterGraph.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GraphEditorPanel.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\HostStartup.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\InternalFilters.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MainHostWindow.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_basics\juce_audio_basics.cpp">
+      <Filter>JuceLibraryCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp">
+      <Filter>JuceLibraryCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp">
+      <Filter>JuceLibraryCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_processors\juce_audio_processors.cpp">
+      <Filter>JuceLibraryCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_audio_utils\juce_audio_utils.cpp">
+      <Filter>JuceLibraryCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_core\juce_core.cpp">
+      <Filter>JuceLibraryCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_data_structures\juce_data_structures.cpp">
+      <Filter>JuceLibraryCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_events\juce_events.cpp">
+      <Filter>JuceLibraryCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_graphics\juce_graphics.cpp">
+      <Filter>JuceLibraryCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_basics\juce_gui_basics.cpp">
+      <Filter>JuceLibraryCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_gui_extra\juce_gui_extra.cpp">
+      <Filter>JuceLibraryCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_opengl\juce_opengl.cpp">
+      <Filter>JuceLibraryCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\JUCE\modules\juce_video\juce_video.cpp">
+      <Filter>JuceLibraryCode</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
